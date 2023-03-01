@@ -16,7 +16,7 @@ subtext2 = soup2.select('.subtext')
 mega_links = links + links2
 mega_subtext = subtext + subtext2
 
-
+#   Sorted by votes
 def sort_stories_by_votes(hnlist):
     return sorted(hnlist, key=lambda k: k['votes'], reverse=True)
 
